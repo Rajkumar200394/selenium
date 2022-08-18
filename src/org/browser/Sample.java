@@ -6,8 +6,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Sample {
+	
+	private void m2() {
+		System.out.println("test2 run conflict");
+	}
 
 	public static void main(String[] args) {
+		
+		
 		
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\user\\eclipse-workspace\\Seleniumday1\\driver\\chromedriver.exe");
